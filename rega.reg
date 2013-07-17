@@ -1,0 +1,8 @@
+REGEDIT4
+    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\vksrv\Parameters]
+    ; Путь к интерпретатору pythonw.exe
+        "Application"="C:\\Python27\\pythonw.exe"
+    ; Путь к папке в которой находится необходимый скрипт
+        "AppDirectory"="Z:\\"
+    ; Собственно, путь к самому скрипту
+        "AppParameters"="Z:\\mainvk.py"
